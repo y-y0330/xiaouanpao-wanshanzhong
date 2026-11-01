@@ -24,11 +24,10 @@ jobs:
           gradle-version: '8.2'
 
       - name: Build Debug APK
-        working-directory: FakeGPS_HuangKeDa_v3
         run: gradle clean assembleDebug --refresh-dependencies
 
       - name: Upload Output APK
         uses: actions/upload-artifact@v4
         with:
           name: FakeGPS-HuangKeDa-SmartNavigator-APK
-          path: FakeGPS_HuangKeDa_v3/app/build/outputs/apk/debug/app-debug.apk
+          path: app/build/outputs/apk/debug/app-debug.apk

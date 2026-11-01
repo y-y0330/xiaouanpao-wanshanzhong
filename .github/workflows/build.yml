@@ -25,7 +25,7 @@ jobs:
 
       - name: Build Debug APK
         # 删掉了 working-directory，直接在根目录运行
-        run: gradle assembleDebug
+        run: gradle assembleDebug --stacktrace
 
       - name: Upload Output APK
         uses: actions/upload-artifact@v4

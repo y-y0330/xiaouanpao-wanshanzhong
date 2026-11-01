@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_horizontal"
+    android:background="#FAFAFA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="黄河科技学院南校区"
+        android:textSize="22sp"
+        android:textColor="#333333"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="智能避障与小程序点位自动巡航系统 v3.0"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/btn_open_dev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. 设置为系统【模拟位置应用】"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btn_open_accessibility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. 开启【无障碍自动监听】"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btn_open_floating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:text="3. 启动悬浮控制窗" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:lineSpacingExtra="4dp"
+        android:text="使用说明：\n1. 授予模拟位置与无障碍权限。\n2. 点击启动悬浮窗后，直接打开微信反转打卡任务页面。\n3. 浮窗自动检测到随机点位后，点击【开始巡航】。\n4. 规划算法将严格基于校区干道行驶，绕开围栏与建筑物。"
+        android:textColor="#888888"
+        android:textSize="12sp" />
+</LinearLayout>

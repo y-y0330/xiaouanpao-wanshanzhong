@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">黄科大智能避障巡航</string>
+    <string name="accessibility_desc">用于自动监测微信小程序体育打卡任务的随机必经点与地标名称</string>
+</resources>

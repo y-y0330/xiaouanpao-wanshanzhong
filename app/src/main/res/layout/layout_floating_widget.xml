@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="170dp"
+    android:layout_height="wrap_content"
+    android:background="#E6263238"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:elevation="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="黄科大巡航助手"
+        android:textColor="#00E676"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_float_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="等待监听小程序任务..."
+        android:textColor="#ECEFF1"
+        android:textSize="11sp" />
+
+    <Button
+        android:id="@+id/btn_float_action"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#00C853"
+        android:enabled="false"
+        android:text="开始巡航"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp">
+
+        <Button
+            android:id="@+id/btn_float_manual"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            android:backgroundTint="#0288D1"
+            android:text="选点"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp"
+            android:layout_marginEnd="2dp" />
+
+        <Button
+            android:id="@+id/btn_float_clear"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            android:backgroundTint="#D32F2F"
+            android:text="清空"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp"
+            android:layout_marginStart="2dp" />
+    </LinearLayout>
+</LinearLayout>
